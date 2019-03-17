@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D7A3337-2481-F4DA-589F-D9EA8A6A4A55" name="STUDENT">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:34:24 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OSOBY" id="B878EC14-9F90-D2A0-657D-556B249289D5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:34:43 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ALBUMU" id="31BB6B02-1D72-A2A6-DF48-A33A95A883D2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:34:50 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWISKO" id="541B0DC1-4E5D-DC6B-B358-6D38899028C5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:35:03 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIE" id="1D65CFBD-9416-EF31-92BB-20CD92BBC21A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:35:13 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="466426FB-358B-4A04-120A-A82DF335BF0E" name="STUDENT PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:34:48 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<engineerTo>
+<item key="E23FA316-7344-E5FD-1609-FF4B3F227FB0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B878EC14-9F90-D2A0-657D-556B249289D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

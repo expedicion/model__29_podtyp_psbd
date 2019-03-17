@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Podtyp" id="E3528381-F9D5-942C-0155-FF6E4CDDB249" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-13 17:33:51 UTC</createdTime>
+<ownerDesignName>Podtyp</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E3528381-F9D5-942C-0155-FF6E4CDDB249</designId>
+</OSDM_Design>
